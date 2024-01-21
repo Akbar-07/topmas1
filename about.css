@@ -316,9 +316,23 @@
         border: 1px solid #676767;
         border-radius: 20px;
     }
+
+    .about_top_right_text {
+        padding: 40px 20px 36px 20px;
+        position: relative;
+        background-color: #070707;
+        border-radius: 20px;
+    }
 }
 
 @media (max-width:420px) {
+    .about_top_right_text {
+        padding: 40px 20px 36px 20px;
+        position: relative;
+        background-color: #070707;
+        border-radius: 20px;
+    }
+
     .footer_links {
         display: flex;
         justify-content: center;
