@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<style>
+    .contact_right_card{
+        max-width: 765px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 30px;
+        padding: 40px 20px;
+    }
+    .for_contact_right_card_black{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: linear-gradient(120deg, rgba(255, 255, 255, 0.134), rgba(255,255,255,0.05));
+        /* opacity: 0.6; */
+    }
+    .contact_right_card h2{
+        color: white;
+        font-size: 44px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .contact_right_card span{
+        color: #5B78F6;
+    }
+    .contact_inputs_card input{
+        width: 100%;
+        border: none;
+        background: linear-gradient(120deg, rgba(255,255,255,0.05), rgba(255,255,255,0.01));
+        border-radius: 10px;
+        padding: 17px 20px;
+        font-size: 14px;
+        display: block;
+        color: #fff;
+        margin-top: 1rem;
+    }
+    .contact_inputs_card{
+        position: relative;
+        z-index: 11;
+    }
+    .contact_inputs_card textarea{
+        width: 100%;
+        border: none;
+        background: linear-gradient(120deg, rgba(255,255,255,0.05), rgba(255,255,255,0.01));
+        border-radius: 10px;
+        padding: 17px 20px;
+        font-size: 14px;
+        display: block;
+        color: #fff;
+        margin-top: 1rem;
+        height: 145px;
+        resize: none;
+    }
+    .for_contact_main{
+        max-width: 1100px;
+        width: 100%;
+        margin: auto;
+        margin-top: 100px !important;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Contact_main{
+        padding: 20px;
+    }
+    .contact_right{
+        max-width: 765px;
+        width: 100%;
+    }
+    .contact_right_card button{
+        width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #323232;
+    padding: 16px 30px;
+    font-size: 14px;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    }
+    .contact_inputs_card h4{
+        color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    margin-top: 3px;
+    display: none;
+    }
+    .contact_left h3{
+        color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+    font-weight: 500;
+    }
+    .for_div_info{
+        width: 68px;
+    height: 68px;
+    border-radius: 10px;
+    flex: none;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: #ffffff;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.184), rgba(255,255,255,0.05));
+    }
+    .for_text_info h5{
+        display: block;
+    color: #BCBCBC;
+    font-size: 14px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 7px;
+    font-weight: 500;
+    }
+    .for_text_info h4{
+        color: #ffffff;
+    font-size: 16px;
+    opacity: 0.8;
+    font-weight: 500;
+    margin-bottom: 7px;
+    }
+    .for_text_info h3{
+        color: #ffffff;
+    font-size: 16px;
+    opacity: 0.8;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-transform: lowercase;
+    }
+    .for_flex_info{
+        display: flex;
+        margin-bottom: 65px;
+    }
+    .for_text_info{
+        margin-left: 24px;
+    }
+    .for_contact_circle{
+        width: 82px;
+    height: 82px;
+    display: block;
+    text-align: center;
+    line-height: 92px;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 32px;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.21), rgba(255,255,255,0.05));
+    transition: .3s;
+    margin-right: 20px;
+    }
+    .for_contact_circle_cards{
+        display: flex;
+    }
+</style>
+<body>
+    
+    <div class="Contact_main">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./Home.html"><img src="./img/logo.svg" alt=""></a>
+            </div>
+            <div class="nav_links">
+                <p><a href="./Home.html">Home</a></p>
+                <p><a href="./about.html">About</a></p>
+                <p><a  href="./work.html">Works</a></p>
+                <p><a class="home active" href="./contact.html">Contact</a></p>
+            </div>
+            <div class="nav_btn">
+                <button>Let's talk</button>
+            </div>
+            <!-- <button class="btn-menu" type="button">
+                <i class="btn-menu__bars" aria-hidden="true"></i>
+            </button> -->
+
+            <div class="navbar2">
+                <div class="nav_links2">
+                    <p><a href="./Home.html">Home</a></p>
+                    <p><a href="./about.html">About</a></p>
+                    <p><a href="./work.html">Works</a></p>
+                    <p><a class="home active" href="./contact.html">Contact</a></p>
+                </div>
+                <div class="nav_btn2">
+                    <button>Let's talk</button>
+                </div>
+            </div>
+        </div>
+        <div class="for_contact_main">
+        <div class="contact_left">
+            <h3>CONTACT INFO</h3>
+            <div class="for_flex_info">
+                <div class="for_div_info">
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <div class="for_text_info">
+                    <h5>MAIL US</h5>
+                    <h4>info@bluebase.com</h4>
+                    <h3>info@bluebase2.com</h3>
+                </div>
+            </div>
+            <div class="for_flex_info">
+                <div class="for_div_info">
+                    <i class='bx bxs-phone'></i>
+                </div>
+                <div class="for_text_info">
+                    <h5>CONTACT US</h5>
+                    <h4>+1 504-899-8221</h4>
+                    <h3>+1 504-749-5456</h3>
+                </div>
+            </div>
+            <div class="for_flex_info">
+                <div class="for_div_info">
+                    <i class='bx bxs-location-plus' ></i>
+                </div>
+                <div class="for_text_info">
+                    <h5>LOCATION</h5>
+                    <h4>22 Baker Street, Texas
+                        United States
+                        W1U 3BW</h4>
+                </div>
+            </div>
+            <h3>SOCIAL INFO</h3>
+            <div class="for_contact_circle_cards">
+                <div class="for_contact_circle">
+                    <i class='bx bxl-dribbble' ></i>
+                </div>
+                <div class="for_contact_circle">
+                    <i class='bx bxl-twitter' ></i>
+                </div>
+                <div class="for_contact_circle">
+                    <i class='bx bxl-instagram' ></i>
+                </div>
+            </div>
+        </div>
+        <div class="contact_right">
+            <div class="contact_right_card">
+                <h2>Let’s work <span>together.</span></h2>
+                <div class="contact_inputs_card">
+                    <input type="text" placeholder="Name*">
+                    <h4>Please fill out this field.</h4>
+                    <input type="text" placeholder="Email*">
+                    <h4>Please fill out this field.</h4>
+                    <input type="text" placeholder="Your Subject*">
+                    <h4>Please fill out this field.</h4>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message*"></textarea>
+                    <h4>Please fill out this field.</h4>
+                    <button>Send Message</button>
+                </div>
+                <div class="for_contact_right_card_black"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
