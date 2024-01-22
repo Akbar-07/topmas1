@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <style>
     .contact_right_card{
@@ -28,7 +30,7 @@
         color: white;
         font-size: 44px;
         font-weight: 500;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .contact_right_card span{
         color: #5B78F6;
@@ -42,7 +44,7 @@
         font-size: 14px;
         display: block;
         color: #fff;
-        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
     .contact_inputs_card{
         position: relative;
@@ -57,7 +59,7 @@
         font-size: 14px;
         display: block;
         color: #fff;
-        margin-bottom: 1rem;
+        margin-top: 1rem;
         height: 145px;
         resize: none;
     }
@@ -66,6 +68,53 @@
         width: 100%;
         margin: auto;
         margin-top: 100px !important;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Contact_main{
+        padding: 20px;
+    }
+    .contact_right{
+        max-width: 765px;
+        width: 100%;
+    }
+    .contact_right_card button{
+        width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #323232;
+    padding: 16px 30px;
+    font-size: 14px;
+    color: white;
+    margin-top: 1rem;
+    }
+    .contact_inputs_card h4{
+        color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    margin-top: 3px;
+    display: none;
+    }
+    .contact_left h3{
+        color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+    font-weight: 500;
+    }
+    .for_div_info{
+        width: 68px;
+    height: 68px;
+    border-radius: 10px;
+    flex: none;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: #ffffff;
+    background: linear-gradient(120deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
+    opacity: .4;
     }
 </style>
 <body>
@@ -102,16 +151,29 @@
         </div>
         <div class="for_contact_main">
         <div class="contact_left">
+            <h3>CONTACT INFO</h3>
+            <div class="for_flex_info">
+                <div class="for_div_info">
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <div class="for_text_info">
 
+                </div>
+            </div>
         </div>
         <div class="contact_right">
             <div class="contact_right_card">
                 <h2>Let’s work <span>together.</span></h2>
                 <div class="contact_inputs_card">
                     <input type="text" placeholder="Name*">
+                    <h4>Please fill out this field.</h4>
                     <input type="text" placeholder="Email*">
+                    <h4>Please fill out this field.</h4>
                     <input type="text" placeholder="Your Subject*">
+                    <h4>Please fill out this field.</h4>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Your Message*"></textarea>
+                    <h4>Please fill out this field.</h4>
+                    <button>Send Message</button>
                 </div>
                 <div class="for_contact_right_card_black"></div>
             </div>

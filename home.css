@@ -9,7 +9,7 @@
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body {
