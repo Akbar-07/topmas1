@@ -109,7 +109,7 @@ body {
     max-width: 600px;
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.082), rgba(255, 255, 255, 0.016));
     border-radius: 30px;
-    padding: 50px 28px;
+    padding: 50px 20px;
     gap: 30px;
     cursor: pointer;
 }
@@ -1569,6 +1569,7 @@ body{
     overflow: hidden;
     border-radius: 30px;
     padding: 40px;
+    z-index: 111;
 }
 .for_contact_right_card_black{
     width: 100%;
@@ -1743,6 +1744,7 @@ margin-right: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 10px 10px 0 0;
+    z-index: 111111111;
 }
 .icon .hydrated{
     color: white;
