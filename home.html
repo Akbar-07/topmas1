@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>GridX</title>
 </head>
 <body>
@@ -42,7 +43,7 @@
         <div class="home_header_box">
             <div class="home_box_top">
                 <a href="./about.html">
-                    <div class="home_box_top_left">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="home_box_top_left">
                         <div class="home_box_top_left_in_left">
                             <img src="./img/me.png" alt="">
                         </div>
@@ -60,12 +61,12 @@
                 </a>
 
                 <div class="home_box_top_right">
-                    <div class="home_box_top_right_top">
+                    <div class="home_box_top_right_top" data-aos="zoom-in" data-aos-duration="1000">
                         <marquee id="marq" behavior="" direction=""><span>LATEST WORK AND <b>FEATURED</b></span><img src="./img/star1.svg" alt=""><span>LATEST WORK AND <b>FEATURED</b></span><img src="./img/star1.svg" alt=""><span>LATEST WORK AND <b>FEATURED</b></span><img src="./img/star1.svg" alt=""></marquee>
                     </div>
                     <div class="home_box_top_right_bottom">
-                        <div class="home_box_top_right_bottom_2">
-                            <div class="home_box_top_right_bottom2_card">
+                        <div class="home_box_top_right_bottom_2" >
+                            <div class="home_box_top_right_bottom2_card" data-aos="zoom-in" data-aos-duration="1000">
                                 <img src="./img/sign.png" alt="">
                                 <div class="infos_big">
                                     <div class="infos">
@@ -78,7 +79,7 @@
                                 </div>
                             </div>
 
-                            <div class="home_box_top_right_bottom2_card">
+                            <div class="home_box_top_right_bottom2_card" data-aos="zoom-in" data-aos-duration="1000">
                                 <img src="img/my-works.png" alt="">
                                 <div class="infos_big">
                                     <div class="infos">
@@ -98,7 +99,7 @@
             <div class="home_box_midle">
                 <div class="home_box_mid_right_bottom_2" >
                     <a href="./gfonts.html">
-                    <div class="home_box_top_right_bottom2_card" id="card3">
+                    <div class="home_box_top_right_bottom2_card" id="card3"data-aos="zoom-in" data-aos-duration="1000">
                         <img src="./img/gfonts.png" alt="">
                         <div class="infos_big">
                             <div class="infos">
@@ -111,7 +112,7 @@
                         </div>
                     </div></a>
 
-                    <div class="home_box_top_right_bottom3_card">
+                    <div class="home_box_top_right_bottom3_card"data-aos="zoom-in" data-aos-duration="1000">
                         <div class="icon_boxes">
                             <i class="iconoir-camera"></i>
                             <i class="iconoir-design-pencil"></i>
@@ -129,7 +130,7 @@
                         </div>
                     </div>
 
-                    <div class="home_box_top_right_bottom2_card" id="card2">
+                    <div class="home_box_top_right_bottom2_card" id="card2" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="inner-profile-icons">
                             <a href="#"><i class="iconoir-dribbble"></i></a>
                             <a href="#"><i class="iconoir-twitter"></i></a>
@@ -147,7 +148,7 @@
                 </div>
                 <div class="home_box_top_right_bottom_3">
                     <div class="home_box_midle_in_card">
-                        <div class="home_box_top_right_bottom3_card">
+                        <div class="home_box_top_right_bottom3_card" data-aos="zoom-in" data-aos-duration="1000">
                             <div class="icon_boxes">
                                 <i class="iconoir-camera"></i>
                                 <i class="iconoir-design-pencil"></i>
@@ -166,7 +167,7 @@
                         </div>
                     </div>
                     <div class="home_box_mid_midle">
-                        <div class="home_box_top_right_bottom2_card">
+                        <div class="home_box_top_right_bottom2_card" data-aos="zoom-in" data-aos-duration="1000">
                             <img src="./img/gfonts.png" alt="">
                             <div class="infos_big">
                                 <div class="infos">
@@ -178,7 +179,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="home_box_top_right_bottom2_card">
+                        <div class="home_box_top_right_bottom2_card" data-aos="zoom-in" data-aos-duration="1000">
                             <div class="inner-profile-icons">
                                 <a href="#"><i class="iconoir-dribbble"></i></a>
                                 <a href="#"><i class="iconoir-twitter"></i></a>
@@ -197,7 +198,7 @@
                 </div>
             </div>
             <div class="home_box_bottom">
-                <div class="home_box_bottom_left_card">
+                <div class="home_box_bottom_left_card" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="home_box_bottom_left_cards">
                         <h1>07</h1>
                         <p>YEARS <br> EXPERIENCE</p>
@@ -212,7 +213,7 @@
                     </div>
                 </div>
 
-                <div class="home_box_bottom_right_card">
+                <div class="home_box_bottom_right_card"data-aos="zoom-in" data-aos-duration="1000">
                     <img id="icon2" src="./img/icon2.png" alt="">
                     <div class="infos_big">
                         <div class="infos">
@@ -240,5 +241,12 @@
             </div>
         </div>
     </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
