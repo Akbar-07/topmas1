@@ -88,6 +88,7 @@
     font-size: 14px;
     color: white;
     margin-top: 1rem;
+    margin-bottom: 20px;
     }
     .contact_inputs_card h4{
         color: #dc3232;
@@ -113,8 +114,7 @@
     line-height: 75px;
     font-size: 30px;
     color: #ffffff;
-    background: linear-gradient(120deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
-    opacity: .4;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.184), rgba(255,255,255,0.05));
     }
     .for_text_info h5{
         display: block;
@@ -143,10 +143,26 @@
     }
     .for_flex_info{
         display: flex;
-        margin-bottom: 70px;
+        margin-bottom: 65px;
     }
     .for_text_info{
         margin-left: 24px;
+    }
+    .for_contact_circle{
+        width: 82px;
+    height: 82px;
+    display: block;
+    text-align: center;
+    line-height: 92px;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 32px;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.21), rgba(255,255,255,0.05));
+    transition: .3s;
+    margin-right: 20px;
+    }
+    .for_contact_circle_cards{
+        display: flex;
     }
 </style>
 <body>
@@ -196,22 +212,35 @@
             </div>
             <div class="for_flex_info">
                 <div class="for_div_info">
-                    <i class='bx bx-envelope'></i>
+                    <i class='bx bxs-phone'></i>
                 </div>
                 <div class="for_text_info">
-                    <h5>MAIL US</h5>
-                    <h4>info@bluebase.com</h4>
-                    <h3>info@bluebase2.com</h3>
+                    <h5>CONTACT US</h5>
+                    <h4>+1 504-899-8221</h4>
+                    <h3>+1 504-749-5456</h3>
                 </div>
             </div>
             <div class="for_flex_info">
                 <div class="for_div_info">
-                    <i class='bx bx-envelope'></i>
+                    <i class='bx bxs-location-plus' ></i>
                 </div>
                 <div class="for_text_info">
-                    <h5>MAIL US</h5>
-                    <h4>info@bluebase.com</h4>
-                    <h3>info@bluebase2.com</h3>
+                    <h5>LOCATION</h5>
+                    <h4>22 Baker Street, Texas
+                        United States
+                        W1U 3BW</h4>
+                </div>
+            </div>
+            <h3>SOCIAL INFO</h3>
+            <div class="for_contact_circle_cards">
+                <div class="for_contact_circle">
+                    <i class='bx bxl-dribbble' ></i>
+                </div>
+                <div class="for_contact_circle">
+                    <i class='bx bxl-twitter' ></i>
+                </div>
+                <div class="for_contact_circle">
+                    <i class='bx bxl-instagram' ></i>
                 </div>
             </div>
         </div>
