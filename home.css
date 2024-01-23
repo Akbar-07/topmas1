@@ -225,6 +225,7 @@ body {
     padding: 24px 24px 40px;
     margin-left: 15px;
     margin-right: auto;
+    width: 100%;
 }
 
 .infos_big {
@@ -360,6 +361,7 @@ body {
 }
 
 .inner-profile-icons {
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -683,6 +685,11 @@ body {
 }
 
 @media (max-width:750px) {
+    #navigation1{
+        display: none;
+    }#navigation2{
+        display: block !important; 
+    }
     body{
         padding-bottom: 70px;
     }
@@ -696,10 +703,6 @@ body {
         display: block !important;
     }
     .nav_links {
-        display: none;
-    }
-
-    .nav_btn {
         display: none;
     }
 
@@ -1184,7 +1187,11 @@ body {
         border-radius: 20px;
     }
 }
-
+@media(max-width:360px){
+    .google_map{
+        height: 230px !important;
+    }
+}
 @media (max-width:420px) {
     .about_top_right_text {
         padding: 40px 20px 36px 20px;
@@ -1214,7 +1221,6 @@ body {
         border-radius: 30px;
         flex: 1;
         padding: 86px 15px 71px 15px;
-        background: #0F0F0F;
     }
 
     .about_top_right_h01 h1 {
@@ -1751,6 +1757,9 @@ margin-right: 20px;
     margin-right: 20px;
 }
 @media(max-width:800px){
+    .google_map{
+        height: 350px;
+    }
     .for_contact_main{
         display: block;
     }
@@ -1762,6 +1771,9 @@ margin-right: 20px;
 @media(max-width:480px){
     .contact_right_card h2{
         font-size: 28px !important;
+    }
+    .google_map{
+        height: 280px;
     }
 }
 .navigation{
@@ -1849,6 +1861,31 @@ margin-right: 20px;
     background: transparent;
     border-radius: 50%;
     box-shadow: 15px 18px #333;
+}
+#navigation2 .indicator::before{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -28px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 15px 18px 	#DCDCDC;
+}
+#navigation2 .indicator::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: -28px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -15px 18px 	#DCDCDC;
+}
+#navigation2{
+    display: none;
 }
 .indicator::after{
     content: '';
@@ -2085,4 +2122,15 @@ margin-right: 20px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+  .google_map{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    width: 100%;
+    margin-top: 50px !important;
+    border-radius: 20px;
+  }
+  .for_contact_main{
+    display: none;
   }
