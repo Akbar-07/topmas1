@@ -401,9 +401,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin-top: 4%;
-    margin-bottom: 6%;
+    flex-wrap: wrap;
+    gap: 10px 40px !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .footer_links p a {
@@ -1066,6 +1067,10 @@ body {
         display: block;
         margin-top: 25px;
     }
+    .about_box_top_right_bottom2_card img{
+        margin: auto;
+        display: flex;
+    }
     .infos{
         margin: auto;
         text-align: center;
@@ -1113,6 +1118,9 @@ body {
 }
 
 @media (max-width:600px) {
+    .icon_boxes{
+        gap: 8vw;
+    }
     .home_box_top_left_in_left{
         margin: auto;
     }
